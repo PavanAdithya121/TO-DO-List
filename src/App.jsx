@@ -15,7 +15,7 @@ function App() {
     ])
     setText('')
   }
-
+  
   const toggleTodo = (id) => {
     setTodos((current) =>
       current.map((todo) =>
